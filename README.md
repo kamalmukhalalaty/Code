@@ -17,6 +17,7 @@ This project involved:
 For more details on the challenge itself and the to source the input data please visit: https://www.kaggle.com/c/kaggle-survey-2019
   - input data: multiple_choice_responses.csv (20.33 MB)
 
+In terms of the attached notebooks:
 - The first notebook (INSERT NOTEBOOK NAME) takes the raw data and does some preliminary data manipulation which involves binning the target variable (Salary) before outputting a file named (INSERT FILE NAME)
 - The second notebook (INSERT NOTEBOOK NAME) involves Some preliminary Data exploration and statistical analysis. 
 - The third notebook (INSERT NOTEBOOK NAME) Is the stand-alone project 
