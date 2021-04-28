@@ -20,4 +20,6 @@ In terms of the attached notebooks:
 - The first notebook **KaggleSalary_DataSet.ipynb** takes the raw survey **multiple_choice_responses.csv** data and does some preliminary data manipulation which involves binning the target variable (Salary) before outputting a file named (Kaggle_Salary.csv)
 - The second notebook **Kaggle_Salary_Predictions.ipynb** Is the stand-alone project where data exploration and the multi-class classification models are tested
 
+### Key Findings & Results
 
+![](https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions/blob/main/Overall%20Distribution%20of%20Salaries.png)
