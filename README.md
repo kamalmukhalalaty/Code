@@ -22,4 +22,12 @@ In terms of the attached notebooks:
 
 ### Key Findings & Results
 
-![](https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions/blob/main/Overall%20Distribution%20of%20Salaries.png)
+<img src="https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions/blob/main/Overall%20Distribution%20of%20Salaries.png" width="100" height="100">
+
+The distribution of salaries is very skewed with a very high number of data points for the lowest salary bracket as well as a "bump" in observations at the 100-125k salary bracket.
+
+This could be due to the high number of respondents from various developping countries with a lower average/median salary (eg. India, which has a large number of survey participants as well).
+
+the bump at the 100-125k salary bracket could also be the basis of a somehwat normal distribution of salaries for the US alone.
+
+to investgiate this further I have created the following plots
