@@ -6,6 +6,7 @@ I decided to bo both the data exploration and build a predictive model using log
 
 This project involved:
 - Data cleaning, wrangling and manipulation
+  - Ordinal & Coordinal encoding 
 - Imputation of missing values 
 - Statistical Analysis 
 - Data exploration
@@ -22,12 +23,14 @@ In terms of the attached notebooks:
 
 ### Key Findings & Results
 
-<img src="https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions/blob/main/Overall%20Distribution%20of%20Salaries.png" width="100" height="100">
+<img src="https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions/blob/main/Overall%20Distribution%20of%20Salaries.png" width="500" height="500">
 
-The distribution of salaries is very skewed with a very high number of data points for the lowest salary bracket as well as a "bump" in observations at the 100-125k salary bracket.
+The distribution of salaries is very skewed with a very high number of data points for the lowest salary bracket as well as a "bump" in observations at the 100-125k salary bracket. This is due to a high number of respondents from various developping countries with a lower average/median salary (eg. India, which has a large number of survey participants as well while the bump at the 100-125k salary bracket can be seen as a somehwat normal distribution of salaries for the North America/USA alone.
 
-This could be due to the high number of respondents from various developping countries with a lower average/median salary (eg. India, which has a large number of survey participants as well).
+To investgiate this further I have created the following plots:
+<img src="https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions/blob/main/US%20vs%20India%20Salary%20Distributions.png" width="500" height="500">
+<img src="https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions/blob/main/US%20vs%20India%20Salaries%20W:R:T%20Education.png" width="500" height="500">
 
-the bump at the 100-125k salary bracket could also be the basis of a somehwat normal distribution of salaries for the US alone.
+Looking at this we can validate that there is somewhat normal distribution of salaries around 125-150k for the US alone with what could be some outliers in the 0-9,999 salrary bracket; and a skewed distrubtion at 0-10000 for indian respondants alone with some outliers at the >250,000$ salary bracket.
 
-to investgiate this further I have created the following plots
+Geography has a large impact on salary, but due to the high variability in number of samples from each geographic region, this impact will be difficult for our models to learn and explain. 
