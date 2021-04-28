@@ -23,13 +23,13 @@ In terms of the attached notebooks:
 
 ### Key Findings & Results
 
-<img src="https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions/blob/main/Overall%20Distribution%20of%20Salaries.png" width="1000" height="300">
+<img src="https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions/blob/main/Overall%20Distribution%20of%20Salaries.png" width="500" height="300">
 
 The distribution of salaries is very skewed with a very high number of data points for the lowest salary bracket as well as a "bump" in observations at the 100-125k salary bracket. This is due to a high number of respondents from various developping countries with a lower average/median salary (eg. India, which has a large number of survey participants as well while the bump at the 100-125k salary bracket can be seen as a somehwat normal distribution of salaries for the North America/USA alone.
 
 To investgiate this further I have created the following plots:
-<img src="https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions/blob/main/US%20vs%20India%20Salary%20Distributions.png" width="1500" height="500">
-<img src="https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions/blob/main/US%20vs%20India%20Salaries%20W:R:T%20Education.png" width="1500" height="500">
+<img src="https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions/blob/main/US%20vs%20India%20Salary%20Distributions.png" width="1500" height="300">
+<img src="https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions/blob/main/US%20vs%20India%20Salaries%20W:R:T%20Education.png" width="1500" height="300">
 
 Looking at this we can validate that there is somewhat normal distribution of salaries around 125-150k for the US alone with what could be some outliers in the 0-9,999 salrary bracket; and a skewed distrubtion at 0-10000 for indian respondants alone with some outliers at the >250,000$ salary bracket.
 
