@@ -6,7 +6,7 @@ I decided to bo both the data exploration and build a predictive model using log
 
 This project involved:
 - Data cleaning, wrangling and manipulation
-  - Ordinal & Coordinal encoding 
+  - Ordinal & Coordinal (Nominal) encoding 
 - Imputation of missing values 
 - Statistical Analysis 
 - Data exploration
@@ -36,4 +36,4 @@ To investgiate this further I have created the following plots:
 
 Looking at this we can validate that there is somewhat normal distribution of salaries around 125-150k for the US alone with what could be some outliers in the 0-9,999 salrary bracket; and a skewed distrubtion at 0-10000 for indian respondants alone with some outliers at the >250,000$ salary bracket.
 
-Geography has a large impact on salary, but due to the high variability in number of samples from each geographic region, this impact will be difficult for our models to learn and explain. 
+Geography has a large impact on salary, but due to the high variability in number of samples from each geographic region, this impact will be difficult for our models to learn and explain. Additionnaly, as geography is not an ordinal catigiorical feature, it will need to be one-hot-encoded, this will increase model coefficients dramatically with little to no requiered increased expressivity(prone to to overfitting).
